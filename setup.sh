@@ -19,11 +19,6 @@ apt install -y resolvconf
 apt install -y windscribe-cli
 
 #
-# Install transmission
-#
-apt install -y transmission-daemon
-
-#
 # Cleaning the cache to limit the size of the image
 #
 apt clean
