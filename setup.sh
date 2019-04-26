@@ -18,6 +18,9 @@ echo "resolvconf resolvconf/linkify-resolvconf boolean false" | debconf-set-sele
 apt install -y resolvconf
 apt install -y windscribe-cli
 
+# Common tools to check tht everything is alright
+apt-get install -y vim dnsutils geoip-bin
+
 #
 # Cleaning the cache to limit the size of the image
 #
